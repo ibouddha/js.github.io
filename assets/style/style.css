@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+}
+
+#toggle{
+    display: inline-block;
+    width: 45vw;
+    height: 60vh;
+    background-color: rgb(243, 241, 241);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    box-shadow: 5px 10px 65px 10px rgb(215, 243, 242);
+    animation: moveOver 2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveOver {
+    from {
+      transform: translate3d(0px, 0, 0);
+    }
+    20% {
+      transform: translate3d(0, -40px, 0);
+    }
+    80% {
+      transform: translate3d(0, 20px, 0);
+    }
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+
+.modal{
+    z-index: 99;
+    display: inline-block;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(243, 241, 241);
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    box-shadow: 5px 10px 65px 10px rgb(215, 243, 242);
+}
+
+.block{
+    margin-top: 3vh;
+    width: 15vw;
+    margin-left: 15vw;
+}
+
+.block input{
+    padding: 1vh;
+    border-radius: 20px 20px;
+    animation: moveOver 1s linear;
+    animation-fill-mode: both;
+}
+
+a img{
+    width: 1vw;
+    height: 2vh;
+}
+
+button img{
+    width: 2vh;
+    height: 2vh;
+}
+
+.block textarea{
+    height: 10vh;
+    width: 15vw;
+}
+
+#ajout img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#fermer img{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#ajout{
+    border-radius: 40px 40px;
+}
+#fermer{
+    border-radius: 40px 40px;
+}
+
